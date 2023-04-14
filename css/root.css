@@ -1,0 +1,56 @@
+:root{
+    --color:#EC594D;
+    --black:#000000;
+    --fontsize:20px;
+    --fontsize2:40px;
+    --fontsize4:24px;
+    --fontsize3:32px;
+    --fontsize16:16px;
+    --fontfamilymon:'Montserrat', sans-serif;
+    --fontfamilypac: 'Pacifico', cursive;
+    --fontfamilypop: 'Poppins', sans-serif;
+
+}
+::selection{
+    color:var(--color);
+    background-color: var(--black);
+}
+*{
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a, button {
+    cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol, ul, menu {
+    list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+}
+/* removes spacing between cells in tables */
+table {
+    border-collapse: collapse;
+}
+
+/* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+input, textarea {
+    webkit-user-select: auto;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+    white-space: revert;
+}
