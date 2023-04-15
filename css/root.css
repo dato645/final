@@ -21,7 +21,7 @@
     box-sizing: border-box;
    
 }
-*::before,
+/* *::before,
 *::after {
     box-sizing: border-box;
 }
@@ -54,4 +54,4 @@ input, textarea {
 /* revert the 'white-space' property for textarea elements on Safari */
 textarea {
     white-space: revert;
-}
+} 

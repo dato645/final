@@ -17,6 +17,12 @@
              align-items: center;
      margin-top: 10px;
     }
+    .font{
+        display: none;
+    }
+    .close{
+        display: none;
+    }
     .br2{
         display: block;
     }
@@ -229,7 +235,12 @@
             -ms-flex-align: center;
                 align-items: center;
     }
- 
+    .font{
+        display: none;
+    }
+    .close{
+        display: none;
+    }
     .br2{
         display: block !important;
     }
@@ -392,6 +403,12 @@ footer{
     }
     .menu{
       margin-left: 90%; 
+    }
+    .font{
+        display: none;
+    }
+    .close{
+        display: none;
     }
     nav{
         
@@ -582,6 +599,40 @@ footer{
     .men1{
         display: none;
       }
+      .burger{
+        display: none;
+        width: 300px;
+        height: 100%;
+        background-color:#5f5e5e;
+      }
+
+      .burger.show {
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+      }
+      .font{
+        font-size: var(--fontsize4);
+        font-family: var(--fontfamilymon);
+        font-weight: 700;
+        cursor: pointer;
+        padding-top: 100px;
+        display: block;
+        
+      }
+      .font hr{
+        width: 100%;
+      }
+       .close{
+        display: flex;
+        justify-content: flex-end;
+       }
+      .menu:hover, .close:hover{
+        cursor: pointer;
+      }
+      
+      
       .container {
         position: relative;
         --size-button: 40px;

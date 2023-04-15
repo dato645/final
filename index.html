@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,18 +7,19 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/root.css">
     <meta property="og:description" content="Offering tour packages for individuals or groups.">
-<meta property="og:site_name" content="European Travel, Inc.">
-<meta name="twitter:image:alt" content="Alt text for image">
-<meta property="og:title" content="European Travel Destinations">
-<meta property="og:type" content="website" />
-<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
-<meta property="og:url" content="http://euro-travel-example.com/index.htm">
-<meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="European Travel, Inc.">
+    <meta name="twitter:image:alt" content="Alt text for image">
+    <meta property="og:title" content="European Travel Destinations">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+    <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+    <meta name="twitter:card" content="summary_large_image">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./css/reset.css">  
+    <link rel="stylesheet" href="./css/reset.css">  
     <link rel="shortcut icon" href="./assets/img/men1.png" type="image/png.">
     <title>txtanerd</title>
+    <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
 </head>
 <body>
       <nav>
@@ -29,146 +29,165 @@
          <div class="txtmobile">
             <h1>txtanerd</h1>
          </div>
-         <div class="menu">
-            <i class="fa-regular fa-bars"></i>
+         <div class="menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
          </div>     
       </nav>
-        <main>
-        <section>
-        <div class="conteiner1">   
-           <div class="men2">
-              <img src="./assets/img/men1.png" alt="men1">
-           </div>
-           <div class="txt">
-            <h1>txtanerd</h1>
-            <p>Too much homework? We’ll do it<br class="br2"> for you!</p>
-           </div>
-           <div class="vector1">
-              <img src="./assets/img/vector.png" alt="vector">
-           </div>
-           <div class="vector2">
-              <img src="./assets/img/vector2.png" alt="vector">
-           </div>
-        </div>
-        <div class="conteiner2">
+      <main>
+         <div class="burger" id="burgerMenu">
+            <div class="close" onclick="toggleMenu()">
+               <i class="fa-regular fa-x"></i>
+            </div>  
+            <!-- <ol type="i">
+               <li onclick="clickMenuItem('1')">1</li>
+               <li onclick="clickMenuItem('2')">2</li>
+               <li onclick="clickMenuItem('3')">3</li>
+               <li>4</li>
+               <li>5</li>
+            </ol> -->
+            <div class="font">
+               <h1>Home</h1>
+               <hr>
+               <h1>About Us</h1>
+               <hr>
+               <h1>Setting</h1>
+               <hr>
+            </div>
+         </div>
+         <section>
+            <div class="conteiner1">   
+               <div class="men2">
+                  <img src="./assets/img/men1.png" alt="men1">
+               </div>
+               <div class="txt">
+                  <h1>txtanerd</h1>
+                  <p>Too much homework? We’ll do it<br class="br2"> for you!</p>
+               </div>
+               <div class="vector1">
+                  <img src="./assets/img/vector.png" alt="vector">
+               </div>
+               <div class="vector2">
+                  <img src="./assets/img/vector2.png" alt="vector">
+               </div>
+            </div>
+            <div class="conteiner2">
                <div class="how">
-                   <h1>How It Works</h1>
+                  <h1>How It Works</h1>
                </div>
-             <div class="content1">  
-               <div class="box1">     
-                   <h1>Step 1</h1>
-                   <p>Shoot us a txt - What you need us to handle<br> and we will reply with a quote, when you<br> provide the necessary information.</p>         
+               <div class="content1">  
+                  <div class="box1">     
+                     <h1>Step 1</h1>
+                     <p>Shoot us a txt - What you need us to handle<br> and we will reply with a quote, when you<br> provide the necessary information.</p>         
+                  </div>
+                  <div class="box2">
+                     <img src="./assets/img/mobile.png" alt="mobile">
+                  </div>
+               </div>  
+            </div>
+            <div class="vector1">
+               <img src="./assets/img/vector.png" alt="vector">
+            </div>
+            <div class="vector2">
+               <img src="./assets/img/vector2.png" alt="vector">
+            </div>
+            <div class="conteiner3">
+               <div class="Slice1">
+                  <img src="./assets/img/Slice2.png" alt="slice">
                </div>
-               <div class="box2">
-                   <img src="./assets/img/mobile.png" alt="mobile">
+               <div class="step2">
+                  <h1>Step 2</h1>
+                  <p>Once you provides us with all the needed<br> information. We’ll get right to work. </p>
                </div>
-             </div>  
-        </div>
-        <div class="vector1">
-           <img src="./assets/img/vector.png" alt="vector">
-        </div>
-        <div class="vector2">
-           <img src="./assets/img/vector2.png" alt="vector">
-        </div>
-         <div class="conteiner3">
-            <div class="Slice1">
-                <img src="./assets/img/Slice2.png" alt="slice">
+               <div class="Slice2">
+                  <img src="./assets/img/Slice2.png" alt="slice">
+               </div>
             </div>
-            <div class="step2">
-                <h1>Step 2</h1>
-                <p>Once you provides us with all the needed<br> information. We’ll get right to work. </p>
+            <div class="vector1">
+               <img src="./assets/img/vector.png" alt="vector">
             </div>
-            <div class="Slice2">
-                <img src="./assets/img/Slice2.png" alt="slice">
+            <div class="vector2">
+               <img src="./assets/img/vector2.png" alt="vector">
             </div>
-         </div>
-         <div class="vector1">
-            <img src="./assets/img/vector.png" alt="vector">
-         </div>
-         <div class="vector2">
-            <img src="./assets/img/vector2.png" alt="vector">
-         </div>
-         <div class="conteiner4">
-                 <div class="box3">
-                    <h1>Step 3</h1>
-                    <p>Once we are done, you will be able to <br>proofread and we will gladly. free of charge<br class="br2">make any<br class="br1"> changes you request. </p>
-                 </div>
-                 <div class="box4">
-                       <img src="./assets/img/pen.png" alt="pen">
-                 </div>
-         </div>
-         <div class="vector1">
-            <img src="./assets/img/vector.png" alt="vector">
-         </div>
-         <div class="vector2 " >
-            <img src="./assets/img/vector2.png" alt="vector">
-         </div>
+            <div class="conteiner4">
+               <div class="box3">
+                  <h1>Step 3</h1>
+                  <p>Once we are done, you will be able to <br>proofread and we will gladly. free of charge<br class="br2">make any<br class="br1"> changes you request. </p>
+               </div>
+               <div class="box4">
+                  <img src="./assets/img/pen.png" alt="pen">
+               </div>
+            </div>
+            <div class="vector1">
+               <img src="./assets/img/vector.png" alt="vector">
+            </div>
+            <div class="vector2 " >
+               <img src="./assets/img/vector2.png" alt="vector">
+            </div>
          </section>
-        <article>
-         <div class="content2">
-            <h1>Frequently Asked <br>
-            Questions</h1>
-          </div>
+         <article>
+            <div class="content2">
+               <h1>Frequently Asked <br>
+               Questions</h1>
+            </div>
             <div class="conteiner10">
-              
                <div class="content3">
-                     <h1>Lorem Ipsum is simply dummy<br class="br3"> text of the printing and <br class="br3">typesetting?</h1>
-                     <p>Galley of type and scrambled it to make a type specimen book. It has survived not only <br class="brno">five centuries, but also the leap into electronic</p>
+                  <h1>Lorem Ipsum is simply dummy<br class="br3"> text of the printing and <br class="br3">typesetting?</h1>
+                  <p>Galley of type and scrambled it to make a type specimen book. It has survived not only <br class="brno">five centuries, but also the leap into electronic</p>
                </div>
             </div>
-          <div class="bossdiv">
-           <div class="conteiner11">  
-            <div class="lorem">
-                <h1>Lorem Ipsum is simply dummy text of the printing and typesetting?</h1>
-            </div>
-            <div>
-               <img src="./assets/img/dzvari.png" alt="cross">
-            </div>
-          </div>
-          </div>  
-          <div class="bossdiv">
-            <div class="conteiner11">  
-             <div class="lorem">
-                 <h1>Lorem Ipsum is simply dummy text of the printing and typesetting?</h1>
-             </div>
-             <div>
-                <img src="./assets/img/dzvari.png" alt="cross">
-             </div>
-           </div>
-           </div>  
-           <div class="bossdiv">
-            <div class="conteiner11">  
-             <div class="lorem">
-                 <h1>Lorem Ipsum is simply dummy text of the printing and typesetting?</h1>
-             </div>
-             <div>
-                <img src="./assets/img/dzvari.png" alt="cross">
-             </div>
-           </div>
-           </div>  
-        </article>
-        <div class="vector1">
-         <img src="./assets/img/vector.png" alt="vector">
-      </div>
-      <div class="vector2 vertorno">
-         <img src="./assets/img/vector2.png" alt="vector">
-      </div>
-        </main> 
-        <footer>
-          <div class="conteiner7">
-              <h1>Are you ready to get good grades<br> without all the work?</h1>
-                   <hr>
-              <p>Shoot us a message and get whatever homework you<br> need done. Easily and quickly as possible!</p>
-              <button onclick="window.open('./login.html')">L0g in</button>
-          </div>
-              <div class="logo">
-               <i class="fa-regular fa-envelope"></i>
-                  
-               <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-                  
-                  <i class="fa-brands fa-twitter"></i>
-              </div>
-        </footer>
-    <script src="./js/index.js"></script>
-</body>
+            <div class="bossdiv">
+               <div class="conteiner11">  
+                  <div class="lorem">
+                     <h1>Lorem Ipsum is simply dummy text of the printing and typesetting?</h1>
+                  </div>
+                  <div>
+                     <img src="./assets/img/dzvari.png" alt="cross">
+                  </div>
+               </div>
+            </div>  
+            <div class="bossdiv">
+               <div class="conteiner11">  
+                  <div class="lorem">
+                     <h1>Lorem Ipsum is simply dummy text of the printing and typesetting?</h1>
+                  </div>
+                  <div>
+                     <img src="./assets/img/dzvari.png" alt="cross">
+                  </div>
+               </div>
+            </div>  
+            <div class="bossdiv">
+               <div class="conteiner11">  
+                  <div class="lorem">
+                     <h1>Lorem Ipsum is simply dummy text of the printing and typesetting?</h1>
+                  </div>
+                  <div>
+                     <img src="./assets/img/dzvari.png" alt="cross">
+                  </div>
+               </div>
+            </div>  
+         </article>
+         <div class="vector1">
+            <img src="./assets/img/vector.png" alt="vector">
+         </div>
+         <div class="vector2 vertorno">
+            <img src="./assets/img/vector2.png" alt="vector">
+         </div>
+      </main> 
+      <footer>
+         <div class="conteiner7">
+            <h1>Are you ready to get good grades<br> without all the work?</h1>
+                  <hr>
+            <p>Shoot us a message and get whatever homework you<br> need done. Easily and quickly as possible!</p>
+            <button onclick="logIn()">L0g in</button>
+         </div>
+         <div class="logo">
+            <i onclick="window.open('https://mail.ru/')" class="fa-regular fa-envelope"></i>
+               
+            <i onclick="window.open('https://www.facebook.com/')" class="fa-brands fa-facebook"></i>
+               
+            <i  onclick="window.open('https://twitter.com/')" class="fa-brands fa-twitter"></i>
+         </div>
+      </footer>
+      <script src="./js/index.js"></script>
+   </body>
 </html>
